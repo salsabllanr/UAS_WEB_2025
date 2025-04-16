@@ -1,0 +1,47 @@
+[
+    {
+        "username": "staff1",
+        "role": "staff",
+        "waktu": "2025-04-16"
+    },
+    {
+        "username": "staff1",
+        "role": "staff",
+        "waktu": "2025-04-16"
+    },
+    {
+        "username": "staff1",
+        "role": "staff",
+        "waktu": "2025-04-16"
+    },
+    {
+        "username": "salsa",
+        "role": "viewer",
+        "waktu": "2025-04-16"
+    },
+    {
+        "username": "admin1",
+        "role": "admin",
+        "waktu": "2025-04-16"
+    },
+    {
+        "username": "admin1",
+        "waktu": "2025-04-16",
+        "role": "admin"
+    },
+    {
+        "username": "sopi",
+        "role": "viewer",
+        "waktu": "2025-04-16"
+    },
+    {
+        "username": "admin1",
+        "role": "admin",
+        "waktu": "2025-04-16"
+    },
+    {
+        "username": "admin1",
+        "waktu": "2025-04-16",
+        "role": "admin"
+    }
+]

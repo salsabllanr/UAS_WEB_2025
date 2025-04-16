@@ -1,0 +1,263 @@
+/* Global Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    margin-left: 0;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.nav-links a:hover {
+    background-color: #555;
+}
+
+/* Styling untuk pesan sukses */
+.alert-success {
+    background-color: #4CAF50; /* Warna hijau untuk sukses */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Form Input Styling */
+.form_input-container {
+    font-family: 'Arial', sans-serif;
+    background: url('img/1.jpg') center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    padding-top: 80px; /* Adjust for fixed navbar */
+}
+
+.form_input-form {
+    background-color: rgba(208, 184, 168, 0.9); /* Slight transparency for smooth effect */
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px; /* Smaller max-width */
+    backdrop-filter: blur(8px); /* Subtle blur effect */
+}
+
+/* Form Heading */
+.form_input-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Label Styling */
+.form_input-form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input, Textarea, Select Styling */
+.form_input-form input[type="text"],
+.form_input-form input[type="password"],
+.form_input-form input[type="url"],
+.form_input-form select,
+.form_input-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.8em; /* Reduced font size for input */
+    color: #333;
+    background-color: #fff;
+    transition: border 0.3s ease;
+}
+
+/* Focused Input Styling */
+/* Form Input Styling */
+.form_input-container {
+    font-family: 'Arial', sans-serif;
+    background: url('img/1.jpg') center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    padding-top: 80px; /* Adjust for fixed navbar */
+    padding-bottom: 40px; /* Add padding at the bottom */
+}
+
+.form_input-form {
+    background-color: rgba(208, 184, 168, 0.9);
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 350px;
+    backdrop-filter: blur(8px);
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Form Heading */
+.form_input-form h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    color: #333;
+    font-weight: 600;
+}
+
+/* Label Styling */
+.form_input-form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input, Textarea, Select Styling */
+.form_input-form input[type="text"],
+.form_input-form input[type="password"],
+.form_input-form input[type="url"],
+.form_input-form select,
+.form_input-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.8em;
+    color: #333;
+    background-color: #fff;
+    transition: border 0.3s ease;
+}
+
+/* Focused Input Styling */
+.form_input-form input:focus,
+.form_input-form select:focus,
+.form_input-form textarea:focus {
+    border-color: #735557;
+    outline: none;
+}
+
+/* Submit Button Styling */
+.form_input-form button[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background-color: #735557;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9em;
+    transition: background 0.3s ease;
+}
+
+/* Submit Button Hover Effect */
+.form_input-form button[type="submit"]:hover {
+    background-color: #5e4b43;
+}
+
+/* Paragraph Styling for Links */
+.form_input-form p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+/* Link Styling */
+.form_input-form a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Alert Messages */
+.alert {
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Success Alert */
+.alert.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* Error Alert */
+.alert.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .form_input-form {
+        padding: 30px;
+        max-width: 100%;
+    }
+
+    .form_input-form h2 {
+        font-size: 1.5em;
+    }
+
+    .form_input-form input[type="text"],
+    .form_input-form input[type="password"],
+    .form_input-form input[type="url"],
+    .form_input-form select,
+    .form_input-form textarea,
+    .form_input-form button[type="submit"] {
+        font-size: 1em;
+    }
+}
